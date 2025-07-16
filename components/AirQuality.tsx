@@ -9,7 +9,6 @@ const AirQuality = (props: GroupProps) => {
   return (
     <group {...props}>
       <capacitor
-        pcbX={-3}
         capacitance="1.0uF"
         footprint="0402"
         name="C7"
@@ -41,7 +40,6 @@ const AirQuality = (props: GroupProps) => {
       />
 
       <capacitor
-        pcbX={-3}
         capacitance="1.0uF"
         footprint="0402"
         name="C2"

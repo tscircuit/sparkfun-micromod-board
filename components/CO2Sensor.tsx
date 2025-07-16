@@ -20,7 +20,6 @@ const CO2Sensor = (props: GroupProps) => {
       />
 
       <capacitor
-        pcbX={-3}
         capacitance="0.1uF"
         footprint="0402"
         name="C4"

@@ -9,7 +9,6 @@ const VoltageRegulation = (props: GroupProps) => {
   return (
     <group {...props}>
       <resistor
-        pcbX={-3}
         resistance="100k"
         footprint="0402"
         name="R12"
@@ -18,7 +17,6 @@ const VoltageRegulation = (props: GroupProps) => {
         connections={{ pin1: "U4.EN", pin2: "net.VCC" }}
       />
       <capacitor
-        pcbX={-3}
         capacitance="1.0uF"
         footprint="0402"
         name="C6"
@@ -29,7 +27,6 @@ const VoltageRegulation = (props: GroupProps) => {
       <netlabel net="EN" schX={-5} anchorSide="right" connectsTo={"R12.pin1"} />
 
       <capacitor
-        pcbX={-3}
         capacitance="1.0uF"
         footprint="0402"
         name="C5"
